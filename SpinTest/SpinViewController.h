@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface SpinViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIView *card;
+@property (weak, nonatomic) IBOutlet UIImageView *cardBack;
+@property (weak, nonatomic) IBOutlet UIImageView *cardFront;
+- (IBAction)spinPressed:(id)sender;
 
 @end

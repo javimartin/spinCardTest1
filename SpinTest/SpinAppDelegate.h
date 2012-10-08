@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class SpinViewController;
+
 @interface SpinAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) SpinViewController *viewController;
 
 @end

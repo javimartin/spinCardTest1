@@ -18,6 +18,9 @@
 		3BCCB9831622BA7100D5CCF8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCCB9821622BA7100D5CCF8 /* Default-568h@2x.png */; };
 		3BCCB9861622BA7100D5CCF8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BCCB9841622BA7100D5CCF8 /* MainStoryboard.storyboard */; };
 		3BCCB9891622BA7100D5CCF8 /* SpinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCCB9881622BA7100D5CCF8 /* SpinViewController.m */; };
+		3BCCB9991622C57600D5CCF8 /* card-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCCB9971622C57600D5CCF8 /* card-back.png */; };
+		3BCCB99A1622C57600D5CCF8 /* card-front.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCCB9981622C57600D5CCF8 /* card-front.png */; };
+		3BCCB9E51622DC8C00D5CCF8 /* SpinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BCCB9E41622DC8C00D5CCF8 /* SpinViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		3BCCB9851622BA7100D5CCF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3BCCB9871622BA7100D5CCF8 /* SpinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpinViewController.h; sourceTree = "<group>"; };
 		3BCCB9881622BA7100D5CCF8 /* SpinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpinViewController.m; sourceTree = "<group>"; };
+		3BCCB9971622C57600D5CCF8 /* card-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-back.png"; sourceTree = "<group>"; };
+		3BCCB9981622C57600D5CCF8 /* card-front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-front.png"; sourceTree = "<group>"; };
+		3BCCB9E41622DC8C00D5CCF8 /* SpinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpinViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,7 @@
 				3BCCB9871622BA7100D5CCF8 /* SpinViewController.h */,
 				3BCCB9881622BA7100D5CCF8 /* SpinViewController.m */,
 				3BCCB9731622BA7000D5CCF8 /* Supporting Files */,
+				3BCCB9E41622DC8C00D5CCF8 /* SpinViewController.xib */,
 			);
 			path = SpinTest;
 			sourceTree = "<group>";
@@ -96,6 +103,8 @@
 		3BCCB9731622BA7000D5CCF8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3BCCB9971622C57600D5CCF8 /* card-back.png */,
+				3BCCB9981622C57600D5CCF8 /* card-front.png */,
 				3BCCB9741622BA7000D5CCF8 /* SpinTest-Info.plist */,
 				3BCCB9751622BA7000D5CCF8 /* InfoPlist.strings */,
 				3BCCB9781622BA7100D5CCF8 /* main.m */,
@@ -164,6 +173,9 @@
 				3BCCB9811622BA7100D5CCF8 /* Default@2x.png in Resources */,
 				3BCCB9831622BA7100D5CCF8 /* Default-568h@2x.png in Resources */,
 				3BCCB9861622BA7100D5CCF8 /* MainStoryboard.storyboard in Resources */,
+				3BCCB9991622C57600D5CCF8 /* card-back.png in Resources */,
+				3BCCB99A1622C57600D5CCF8 /* card-front.png in Resources */,
+				3BCCB9E51622DC8C00D5CCF8 /* SpinViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +305,7 @@
 				3BCCB98E1622BA7100D5CCF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
